@@ -1,0 +1,332 @@
+[
+  {
+    "day": 0,
+    "exerciseId": "day0_guide",
+    "title": "启动攻略",
+    "url": "https://ebp.gesedna.com/EBPModule/ebp.guidevideo"
+  },
+  {
+    "day": 1,
+    "exerciseId": "day1_read",
+    "title": "欢迎探索情绪的世界",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day1.v3.mp3"
+  },
+  {
+    "day": 1,
+    "exerciseId": "day1_listen",
+    "title": "在呼吸中初识觉察",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day1.gyz.v2.mp3"
+  },
+  {
+    "day": 2,
+    "exerciseId": "day2_read",
+    "title": "感知与识别你的情绪",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day2.v3.mp3"
+  },
+  {
+    "day": 2,
+    "exerciseId": "day2_listen",
+    "title": "觉察丰富的身体感受",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day2.gyz.v2.mp3"
+  },
+  {
+    "day": 3,
+    "exerciseId": "day3_read",
+    "title": "理解情绪——基本规律",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day3.v3.mp3"
+  },
+  {
+    "day": 3,
+    "exerciseId": "day3_listen",
+    "title": "接纳真实的身体感受",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day3.gyz.v2.mp3"
+  },
+  {
+    "day": 4,
+    "exerciseId": "day4_read",
+    "title": "理解情绪——寻找为什么",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day4.v3.mp3"
+  },
+  {
+    "day": 4,
+    "exerciseId": "day4_listen",
+    "title": "觉察身体感受和想法",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day4.gyz.v2.mp3"
+  },
+  {
+    "day": 5,
+    "exerciseId": "day5_read",
+    "title": "「感知与理解情绪」小结",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day5.v3.mp3"
+  },
+  {
+    "day": 5,
+    "exerciseId": "day5_listen",
+    "title": "探索情绪的原因",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day5.gyz.v2.mp3"
+  },
+  {
+    "day": 6,
+    "exerciseId": "day6_read",
+    "title": "情绪调节——重新认识情绪调节",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day6.v3.mp3"
+  },
+  {
+    "day": 6,
+    "exerciseId": "day6_listen",
+    "title": "暂停一下，觉察行动",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day6.gyz.v2.mp3"
+  },
+  {
+    "day": 7,
+    "exerciseId": "day7_read",
+    "title": "情绪调节——应对情绪失控",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day7.v3.mp3"
+  },
+  {
+    "day": 7,
+    "exerciseId": "day7_listen",
+    "title": "调动五感，着陆环境",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day7.gyz.v2.mp3"
+  },
+  {
+    "day": 8,
+    "exerciseId": "day8_read",
+    "title": "情绪调节——运用身体反应",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day8.v3.mp3"
+  },
+  {
+    "day": 8,
+    "exerciseId": "day8_listen",
+    "title": "关爱触碰，安抚身心",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day8.gyz.v2.mp3"
+  },
+  {
+    "day": 9,
+    "exerciseId": "day9_read",
+    "title": "情绪调节——识别与调整自动化想法",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day9.v3.mp3"
+  },
+  {
+    "day": 9,
+    "exerciseId": "day9_listen",
+    "title": "通过命名，识别想法滤镜",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day9.gyz.v2.mp3"
+  },
+  {
+    "day": 10,
+    "exerciseId": "day10_read",
+    "title": "情绪调节——掌控注意力，应对思绪游离",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day10.v3.mp3"
+  },
+  {
+    "day": 10,
+    "exerciseId": "day10_listen",
+    "title": "走出想法，重回现实",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day10.gyz.v2.mp3"
+  },
+  {
+    "day": 11,
+    "exerciseId": "day11_read",
+    "title": "解决问题——提升自主感，直面压力挑战",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day11.v3.mp3"
+  },
+  {
+    "day": 11,
+    "exerciseId": "day11_listen",
+    "title": "暂停一下，自主行动",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day11.gyz.v2.mp3"
+  },
+  {
+    "day": 12,
+    "exerciseId": "day12_read",
+    "title": "「情绪调节」小结",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day12.v3.mp3"
+  },
+  {
+    "day": 12,
+    "exerciseId": "day12_listen",
+    "title": "呼吸空间，编织降落伞",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day12.gyz.v2.mp3"
+  },
+  {
+    "day": 13,
+    "exerciseId": "day13_read",
+    "title": "人际情绪——识别沟通风格",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day13.v3.mp3"
+  },
+  {
+    "day": 13,
+    "exerciseId": "day13_listen",
+    "title": "用「解套」跳出惯性思维",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day13.gyz.v2.mp3"
+  },
+  {
+    "day": 14,
+    "exerciseId": "day14_read",
+    "title": "人际情绪——自信而坚定地表达需求",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day14.v3.mp3"
+  },
+  {
+    "day": 14,
+    "exerciseId": "day14_listen",
+    "title": "在观察中培养多维视角",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day14.gyz.v2.mp3"
+  },
+  {
+    "day": 15,
+    "exerciseId": "day15_read",
+    "title": "人际情绪——了解对方需求",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day15.v3.mp3"
+  },
+  {
+    "day": 15,
+    "exerciseId": "day15_listen",
+    "title": "在品尝中区分事实与猜测",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day15.gyz.v2.mp3"
+  },
+  {
+    "day": 16,
+    "exerciseId": "day16_read",
+    "title": "人际情绪——应对冲突，促进合作",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day16.v3.mp3"
+  },
+  {
+    "day": 16,
+    "exerciseId": "day16_listen",
+    "title": "向着目标灵活前进",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day16.gyz.v2.mp3"
+  },
+  {
+    "day": 17,
+    "exerciseId": "day17_read",
+    "title": "运用情绪智能——基础思路",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day17.v3.mp3"
+  },
+  {
+    "day": 17,
+    "exerciseId": "day17_listen",
+    "title": "巩固觉察情绪的能力",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day17.gyz.v2.mp3"
+  },
+  {
+    "day": 18,
+    "exerciseId": "day18_read",
+    "title": "运用情绪智能——与焦虑同行",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day18.v3.mp3"
+  },
+  {
+    "day": 18,
+    "exerciseId": "day18_listen",
+    "title": "焦虑时，关爱触碰 & 解套",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day18.gyz.v2.mp3"
+  },
+  {
+    "day": 19,
+    "exerciseId": "day19_read",
+    "title": "运用情绪智能——应对悲伤低落",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day19.v3.mp3"
+  },
+  {
+    "day": 19,
+    "exerciseId": "day19_listen",
+    "title": "低落时，解套 & 感受自然",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day19.gyz.v2.mp3"
+  },
+  {
+    "day": 20,
+    "exerciseId": "day20_read",
+    "title": "运用情绪智能——应对愤怒",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day20.v3.mp3"
+  },
+  {
+    "day": 20,
+    "exerciseId": "day20_listen",
+    "title": "在进食中练习暂停冲动",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day20.gyz.v2.mp3"
+  },
+  {
+    "day": 21,
+    "exerciseId": "day21_read",
+    "title": "持续练习，提升情绪智能",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day21.v3.mp3"
+  },
+  {
+    "day": 21,
+    "exerciseId": "day21_listen",
+    "title": "在自主的选择中成长",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day21.gyz.v2.mp3"
+  },
+  {
+    "day": 22,
+    "exerciseId": "day22_read",
+    "title": "彩蛋：重新理解幸福",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day22.v3.mp3"
+  },
+  {
+    "day": 22,
+    "exerciseId": "day22_listen",
+    "title": "巩固觉察情绪的能力",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day22.gyz.v2.mp3"
+  },
+  {
+    "day": 23,
+    "exerciseId": "day23_read",
+    "title": "彩蛋：重新理解情绪",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day23.v3.mp3"
+  },
+  {
+    "day": 23,
+    "exerciseId": "day23_listen",
+    "title": "呼吸空间，编织降落伞",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day23.gyz.v2.mp3"
+  },
+  {
+    "day": 24,
+    "exerciseId": "day24_read",
+    "title": "彩蛋：理解接纳",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day24.v3.mp3"
+  },
+  {
+    "day": 24,
+    "exerciseId": "day24_listen",
+    "title": "接纳真实的身体感受",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day24.gyz.v2.mp3"
+  },
+  {
+    "day": 25,
+    "exerciseId": "day25_read",
+    "title": "彩蛋：理解自我",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day25.v3.mp3"
+  },
+  {
+    "day": 25,
+    "exerciseId": "day25_listen",
+    "title": "巩固觉察情绪的能力",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day25.gyz.v2.mp3"
+  },
+  {
+    "day": 26,
+    "exerciseId": "day26_read",
+    "title": "彩蛋：打开人际互动的黑盒子",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day26.v3.mp3"
+  },
+  {
+    "day": 26,
+    "exerciseId": "day26_listen",
+    "title": "呼吸空间，编织降落伞",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day26.gyz.v2.mp3"
+  },
+  {
+    "day": 27,
+    "exerciseId": "day27_read",
+    "title": "彩蛋：识别与理解他人情绪",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.read.day27.v3.mp3"
+  },
+  {
+    "day": 27,
+    "exerciseId": "day27_listen",
+    "title": "接纳真实的身体感受",
+    "url": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day27.gyz.v2.mp3"
+  }
+]

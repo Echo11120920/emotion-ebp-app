@@ -1,0 +1,580 @@
+[
+    {
+      "day": 11,
+      "theme": "提升自主感直面压力挑战",
+      "title": "解决问题",
+      "exercises": [
+        {
+          "id": "day11_read",
+          "type": "阅读",
+          "title": "解决问题——提升自主感，直面压力挑战",
+          "description": "学习用解决问题的方式应对压力",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day11.v3.mp3"
+        },
+        {
+          "id": "day11_write",
+          "type": "书写",
+          "title": "风险收益分析",
+          "description": "分析面对压力时的选择和后果",
+          "questions": [
+            "当前你面临的一个压力/挑战是什么？",
+            "如果采取行动，可能的风险和收益是什么？",
+            "如果不采取行动，可能的风险和收益是什么？"
+          ]
+        },
+        {
+          "id": "day11_listen",
+          "type": "正念",
+          "title": "暂停一下，自主行动",
+          "description": "在觉察中培养自主感",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day11.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "情绪调节小结",
+      "title": "第二阶段总结",
+      "exercises": [
+        {
+          "id": "day12_read",
+          "type": "阅读",
+          "title": "「情绪调节」小结",
+          "description": "回顾情绪调节阶段的学习内容",
+          "duration": "8分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day12.v3.mp3"
+        },
+        {
+          "id": "day12_write",
+          "type": "书写",
+          "title": "知识总结与复习",
+          "description": "整理情绪调节的核心技巧",
+          "questions": [
+            "列出你学到的3个情绪调节技巧",
+            "哪个技巧对你最有效？为什么？",
+            "你打算如何在日常生活中运用这些技巧？"
+          ]
+        },
+        {
+          "id": "day12_listen",
+          "type": "正念",
+          "title": "呼吸空间，编织降落伞",
+          "description": "整合情绪调节的正念练习",
+          "duration": "12分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day12.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "识别沟通风格",
+      "title": "人际情绪入门",
+      "exercises": [
+        {
+          "id": "day13_read",
+          "type": "阅读",
+          "title": "人际情绪——识别沟通风格",
+          "description": "了解不同的沟通风格及其影响",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day13.v3.mp3"
+        },
+        {
+          "id": "day13_write",
+          "type": "书写",
+          "title": "你想从这场互动中得到什么",
+          "description": "明确人际互动的目标",
+          "questions": [
+            "回想一次最近的人际互动，你的目标是什么？",
+            "你的沟通风格是什么？（被动/攻击/自信）",
+            "这种风格帮助你达成了目标吗？"
+          ]
+        },
+        {
+          "id": "day13_listen",
+          "type": "正念",
+          "title": "用「解套」跳出惯性思维",
+          "description": "在人际互动中保持觉察",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day13.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "自信而坚定地表达需求",
+      "title": "自信沟通",
+      "exercises": [
+        {
+          "id": "day14_read",
+          "type": "阅读",
+          "title": "人际情绪——自信而坚定地表达需求",
+          "description": "学习自信沟通的技巧",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day14.v3.mp3"
+        },
+        {
+          "id": "day14_write",
+          "type": "书写",
+          "title": "面对人际冲突时",
+          "description": "练习自信表达的场景",
+          "questions": [
+            "描述一个你需要表达需求的场景",
+            "用「我」陈述句表达你的感受和需求",
+            "你担心会发生什么？如何面对？"
+          ]
+        },
+        {
+          "id": "day14_listen",
+          "type": "正念",
+          "title": "在观察中培养多维视角",
+          "description": "从多角度看待人际互动",
+          "duration": "11分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day14.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "了解对方需求",
+      "title": "倾听的艺术",
+      "exercises": [
+        {
+          "id": "day15_read",
+          "type": "阅读",
+          "title": "人际情绪——了解对方需求",
+          "description": "学习倾听和理解他人",
+          "duration": "9分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day15.v3.mp3"
+        },
+        {
+          "id": "day15_write",
+          "type": "书写",
+          "title": "留意阻碍倾听的行为",
+          "description": "识别自己的倾听障碍",
+          "questions": [
+            "回想一次对话，你在听的时候在想什么？",
+            "有哪些行为阻碍了你真正倾听对方？",
+            "下次你可以如何改进？"
+          ]
+        },
+        {
+          "id": "day15_listen",
+          "type": "正念",
+          "title": "在品尝中区分事实与猜测",
+          "description": "培养客观观察的能力",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day15.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "应对冲突促进合作",
+      "title": "冲突解决",
+      "exercises": [
+        {
+          "id": "day16_read",
+          "type": "阅读",
+          "title": "人际情绪——应对冲突，促进合作",
+          "description": "学习建设性地解决冲突",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day16.v3.mp3"
+        },
+        {
+          "id": "day16_write",
+          "type": "书写",
+          "title": "留意令人反感的沟通策略",
+          "description": "识别并避免无效沟通",
+          "questions": [
+            "你常用的沟通策略有哪些？",
+            "哪些策略可能会让对方感到不舒服？",
+            "如何用合作代替对抗？"
+          ]
+        },
+        {
+          "id": "day16_listen",
+          "type": "正念",
+          "title": "向着目标灵活前进",
+          "description": "在冲突中保持灵活和觉察",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day16.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "运用情绪智能基础思路",
+      "title": "整合应用",
+      "exercises": [
+        {
+          "id": "day17_read",
+          "type": "阅读",
+          "title": "运用情绪智能——基础思路",
+          "description": "整合所学知识，形成应用框架",
+          "duration": "9分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day17.v3.mp3"
+        },
+        {
+          "id": "day17_write",
+          "type": "书写",
+          "title": "综合书写——运用情绪智能",
+          "description": "练习综合运用情绪智能",
+          "questions": [
+            "描述一个你最近的情绪场景",
+            "运用所学：识别情绪、理解原因、选择调节方式",
+            "如果重新来过，你会怎么做？"
+          ]
+        },
+        {
+          "id": "day17_listen",
+          "type": "正念",
+          "title": "巩固觉察情绪的能力",
+          "description": "强化基础觉察能力",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day17.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "与焦虑同行",
+      "title": "应对焦虑",
+      "exercises": [
+        {
+          "id": "day18_read",
+          "type": "阅读",
+          "title": "运用情绪智能——与焦虑同行",
+          "description": "学习理解和应对焦虑",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day18.v3.mp3"
+        },
+        {
+          "id": "day18_write",
+          "type": "书写",
+          "title": "综合书写——应对焦虑",
+          "description": "运用技巧应对焦虑",
+          "questions": [
+            "你最近的焦虑是什么？",
+            "焦虑在试图告诉你什么？",
+            "你可以采取哪些有帮助的行动？"
+          ]
+        },
+        {
+          "id": "day18_listen",
+          "type": "正念",
+          "title": "焦虑时，关爱触碰 & 解套",
+          "description": "应对焦虑的正念练习",
+          "duration": "11分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day18.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "应对悲伤低落",
+      "title": "走出低落",
+      "exercises": [
+        {
+          "id": "day19_read",
+          "type": "阅读",
+          "title": "运用情绪智能——应对悲伤低落",
+          "description": "学习理解和应对悲伤",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day19.v3.mp3"
+        },
+        {
+          "id": "day19_write",
+          "type": "书写",
+          "title": "综合书写——应对悲伤低落",
+          "description": "温柔地对待悲伤情绪",
+          "questions": [
+            "你现在的情绪状态如何？",
+            "悲伤在告诉你什么需求？",
+            "你可以如何温柔地照顾自己？"
+          ]
+        },
+        {
+          "id": "day19_listen",
+          "type": "正念",
+          "title": "低落时，解套 & 感受自然",
+          "description": "在低落时回到当下",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day19.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "应对愤怒",
+      "title": "管理愤怒",
+      "exercises": [
+        {
+          "id": "day20_read",
+          "type": "阅读",
+          "title": "运用情绪智能——应对愤怒",
+          "description": "学习理解和应对愤怒",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day20.v3.mp3"
+        },
+        {
+          "id": "day20_write",
+          "type": "书写",
+          "title": "综合书写——应对愤怒",
+          "description": "建设性地表达和处理愤怒",
+          "questions": [
+            "最近一次愤怒是什么时候？",
+            "愤怒背后的需求是什么？",
+            "如何用自信而非攻击的方式表达？"
+          ]
+        },
+        {
+          "id": "day20_listen",
+          "type": "正念",
+          "title": "在进食中练习暂停冲动",
+          "description": "通过日常活动练习暂停",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day20.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "持续练习提升情绪智能",
+      "title": "持续成长",
+      "exercises": [
+        {
+          "id": "day21_read",
+          "type": "阅读",
+          "title": "持续练习，提升情绪智能",
+          "description": "规划持续的练习计划",
+          "duration": "9分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day21.v3.mp3"
+        },
+        {
+          "id": "day21_write",
+          "type": "书写",
+          "title": "盘点练习成就，持续行动",
+          "description": "回顾成长，制定未来计划",
+          "questions": [
+            "这21天你最大的收获是什么？",
+            "哪些技巧你会继续使用？",
+            "你的持续练习计划是什么？"
+          ]
+        },
+        {
+          "id": "day21_listen",
+          "type": "正念",
+          "title": "在自主的选择中成长",
+          "description": "带着觉察继续旅程",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day21.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "彩蛋：重新理解幸福",
+      "title": "幸福的真相",
+      "exercises": [
+        {
+          "id": "day22_read",
+          "type": "阅读",
+          "title": "彩蛋：重新理解幸福",
+          "description": "探索幸福的本质",
+          "duration": "8分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day22.v3.mp3"
+        },
+        {
+          "id": "day22_write",
+          "type": "书写",
+          "title": "写下对幸福的理解",
+          "description": "反思自己的幸福观",
+          "questions": [
+            "对你来说什么是幸福？",
+            "这个理解在练习后有变化吗？",
+            "你可以如何创造更多幸福时刻？"
+          ]
+        },
+        {
+          "id": "day22_listen",
+          "type": "正念",
+          "title": "巩固觉察情绪的能力",
+          "description": "复习基础正念练习",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day22.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "彩蛋：重新理解情绪",
+      "title": "情绪的智慧",
+      "exercises": [
+        {
+          "id": "day23_read",
+          "type": "阅读",
+          "title": "彩蛋：重新理解情绪",
+          "description": "更深入地理解情绪功能",
+          "duration": "8分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day23.v3.mp3"
+        },
+        {
+          "id": "day23_write",
+          "type": "书写",
+          "title": "写下对情绪的理解",
+          "description": "整合对情绪的认知",
+          "questions": [
+            "现在你如何理解情绪？",
+            "情绪是你的敌人还是朋友？",
+            "你希望和情绪建立什么关系？"
+          ]
+        },
+        {
+          "id": "day23_listen",
+          "type": "正念",
+          "title": "呼吸空间，编织降落伞",
+          "description": "核心正念技巧复习",
+          "duration": "12分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day23.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "彩蛋：理解接纳",
+      "title": "接纳的力量",
+      "exercises": [
+        {
+          "id": "day24_read",
+          "type": "阅读",
+          "title": "彩蛋：理解接纳",
+          "description": "深入理解接纳的含义",
+          "duration": "8分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day24.v3.mp3"
+        },
+        {
+          "id": "day24_write",
+          "type": "书写",
+          "title": "写下对接纳的理解",
+          "description": "反思接纳的实践",
+          "questions": [
+            "接纳对你意味着什么？",
+            "接纳和放弃有什么区别？",
+            "你可以如何练习接纳？"
+          ]
+        },
+        {
+          "id": "day24_listen",
+          "type": "正念",
+          "title": "接纳真实的身体感受",
+          "description": "身体层面的接纳练习",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day24.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "彩蛋：理解自我",
+      "title": "认识自我",
+      "exercises": [
+        {
+          "id": "day25_read",
+          "type": "阅读",
+          "title": "彩蛋：理解自我",
+          "description": "探索自我概念",
+          "duration": "8分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day25.v3.mp3"
+        },
+        {
+          "id": "day25_write",
+          "type": "书写",
+          "title": "写下对自我的理解",
+          "description": "反思自我认知",
+          "questions": [
+            "你是谁？（除了名字和身份）",
+            "你的核心价值观是什么？",
+            "练习如何改变了你对自己的看法？"
+          ]
+        },
+        {
+          "id": "day25_listen",
+          "type": "正念",
+          "title": "巩固觉察情绪的能力",
+          "description": "在觉察中认识自我",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day25.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "彩蛋：打开人际互动的黑盒子",
+      "title": "人际洞察",
+      "exercises": [
+        {
+          "id": "day26_read",
+          "type": "阅读",
+          "title": "彩蛋：打开人际互动的黑盒子",
+          "description": "深入理解人际互动机制",
+          "duration": "9分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day26.v3.mp3"
+        },
+        {
+          "id": "day26_write",
+          "type": "书写",
+          "title": "梳理人际互动过程",
+          "description": "分析人际互动中的情绪",
+          "questions": [
+            "选择一次人际互动，描述发生了什么",
+            "双方的情绪和需求是什么？",
+            "你观察到了哪些互动模式？"
+          ]
+        },
+        {
+          "id": "day26_listen",
+          "type": "正念",
+          "title": "呼吸空间，编织降落伞",
+          "description": "在人际中保持中心",
+          "duration": "12分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day26.gyz.v2.mp3"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "彩蛋：识别与理解他人情绪",
+      "title": "共情能力",
+      "exercises": [
+        {
+          "id": "day27_read",
+          "type": "阅读",
+          "title": "彩蛋：识别与理解他人情绪",
+          "description": "提升共情和理解他人的能力",
+          "duration": "9分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.read.day27.v3.mp3"
+        },
+        {
+          "id": "day27_write",
+          "type": "书写",
+          "title": "拆解识别他人情绪的线索",
+          "description": "练习识别他人情绪",
+          "questions": [
+            "选择一个你熟悉的人，TA最近的情绪状态如何？",
+            "你从哪些线索看出TA的情绪？",
+            "你可以如何更好地理解和支持TA？"
+          ]
+        },
+        {
+          "id": "day27_listen",
+          "type": "正念",
+          "title": "接纳真实的身体感受",
+          "description": "在共情中保持觉察",
+          "duration": "10分钟",
+          "audioUrl": "https://static.gesedna.com/audios/ebp.emotion.base.listen.day27.gyz.v2.mp3"
+        }
+      ]
+    }
+  ]

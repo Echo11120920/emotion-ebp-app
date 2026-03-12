@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - Echo Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* 暖色调中性色 - 避免纯灰 */
+            --color-bg: #faf8f5;
+            --color-bg-warm: #f5f0e8;
+            --color-text: #2a2620;
+            --color-text-muted: #6b6558;
+            --color-accent: #c75b39;
+            --color-accent-hover: #a8482d;
+            --color-border: #e8e2d9;
+            --color-input-bg: #ffffff;
+            
+            /* 字体 */
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'Source Sans 3', -apple-system, sans-serif;
+            
+            /* 间距系统 - 基于 8px */
+            --space-xs: 0.5rem;
+            --space-sm: 0.75rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2.5rem;
+            --space-2xl: 4rem;
+            --space-3xl: 6rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* 左侧 - 品牌区域 */
+        .brand-side {
+            background: var(--color-bg-warm);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: var(--space-3xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-side::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -30%;
+            width: 80%;
+            height: 200%;
+            background: radial-gradient(ellipse, rgba(199, 91, 57, 0.03) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .brand-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--space-2xl);
+            color: var(--color-text);
+        }
+
+        .logo span {
+            font-style: italic;
+            color: var(--color-accent);
+        }
+
+        .headline {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 400;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: var(--space-lg);
+        }
+
+        .headline em {
+            font-style: italic;
+            color: var(--color-accent);
+        }
+
+        .subheadline {
+            font-size: 1.125rem;
+            font-weight: 300;
+            color: var(--color-text-muted);
+            line-height: 1.7;
+            max-width: 32ch;
+        }
+
+        .features {
+            margin-top: var(--space-2xl);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            font-size: 0.9375rem;
+            color: var(--color-text-muted);
+        }
+
+        .feature::before {
+            content: '—';
+            color: var(--color-accent);
+            font-weight: 600;
+        }
+
+        /* 右侧 - 表单区域 */
+        .form-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: var(--space-3xl);
+            max-width: 480px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .form-header {
+            margin-bottom: var(--space-xl);
+        }
+
+        .form-title {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: var(--space-xs);
+            letter-spacing: -0.02em;
+        }
+
+        .form-subtitle {
+            color: var(--color-text-muted);
+            font-size: 0.9375rem;
+        }
+
+        .form-group {
+            margin-bottom: var(--space-lg);
+        }
+
+        label {
+            display: block;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-text-muted);
+            margin-bottom: var(--space-xs);
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: var(--space-md) var(--space-lg);
+            border: 1px solid var(--color-border);
+            border-radius: 0;
+            background: var(--color-input-bg);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            color: var(--color-text);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        input[type="email"]::placeholder,
+        input[type="password"]::placeholder {
+            color: #b8b2a8;
+        }
+
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 3px rgba(199, 91, 57, 0.08);
+        }
+
+        .form-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-xl);
+            font-size: 0.875rem;
+        }
+
+        .checkbox-wrapper {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+            width: 1rem;
+            height: 1rem;
+            accent-color: var(--color-accent);
+            cursor: pointer;
+        }
+
+        .checkbox-wrapper span {
+            color: var(--color-text-muted);
+        }
+
+        .forgot-link {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .forgot-link:hover {
+            color: var(--color-accent-hover);
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: var(--space-md) var(--space-xl);
+            background: var(--color-accent);
+            color: white;
+            border: none;
+            font-family: var(--font-body);
+            font-size: 0.9375rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.1s ease;
+        }
+
+        button[type="submit"]:hover {
+            background: var(--color-accent-hover);
+        }
+
+        button[type="submit"]:active {
+            transform: translateY(1px);
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin: var(--space-xl) 0;
+            color: var(--color-text-muted);
+            font-size: 0.8125rem;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--color-border);
+        }
+
+        .social-login {
+            display: flex;
+            gap: var(--space-md);
+        }
+
+        .social-btn {
+            flex: 1;
+            padding: var(--space-md);
+            border: 1px solid var(--color-border);
+            background: var(--color-input-bg);
+            font-family: var(--font-body);
+            font-size: 0.875rem;
+            color: var(--color-text);
+            cursor: pointer;
+            transition: border-color 0.2s ease, background 0.2s ease;
+        }
+
+        .social-btn:hover {
+            border-color: var(--color-text-muted);
+            background: var(--color-bg);
+        }
+
+        .signup-prompt {
+            margin-top: var(--space-xl);
+            text-align: center;
+            font-size: 0.9375rem;
+            color: var(--color-text-muted);
+        }
+
+        .signup-prompt a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .signup-prompt a:hover {
+            text-decoration: underline;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            body {
+                grid-template-columns: 1fr;
+            }
+
+            .brand-side {
+                display: none;
+            }
+
+            .form-side {
+                padding: var(--space-xl);
+                max-width: 100%;
+            }
+        }
+
+        /* 减少动效 */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="brand-side">
+        <div class="brand-content">
+            <div class="logo">Echo<span>Space</span></div>
+            <h1 class="headline">Welcome back to <em>your</em> space</h1>
+            <p class="subheadline">A quiet corner for your thoughts, ideas, and creative work.</p>
+            <div class="features">
+                <div class="feature">Distraction-free writing</div>
+                <div class="feature">End-to-end encryption</div>
+                <div class="feature">Seamless sync across devices</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-side">
+        <div class="form-header">
+            <h2 class="form-title">Sign in</h2>
+            <p class="form-subtitle">Enter your details to continue</p>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <div class="form-options">
+                <label class="checkbox-wrapper">
+                    <input type="checkbox" checked>
+                    <span>Remember me</span>
+                </label>
+                <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <button type="submit">Sign in</button>
+
+            <div class="divider">or continue with</div>
+
+            <div class="social-login">
+                <button type="button" class="social-btn">Google</button>
+                <button type="button" class="social-btn">Apple</button>
+            </div>
+
+            <p class="signup-prompt">
+                Don't have an account? <a href="#">Create one</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

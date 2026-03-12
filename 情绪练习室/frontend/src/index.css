@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 text-gray-700 antialiased min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-rose-300 to-pink-300 hover:from-rose-400 hover:to-pink-400 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-white/80 hover:bg-white text-gray-600 font-medium py-3 px-6 rounded-xl border border-rose-200 transition-all duration-200 shadow-sm;
+  }
+
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm border border-rose-100 p-6;
+  }
+
+  .day-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm border border-rose-100 p-6 hover:shadow-md hover:border-rose-200 transition-all duration-200 cursor-pointer;
+  }
+
+  .exercise-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-xl border border-rose-100 p-5 hover:border-rose-200 transition-all duration-200;
+  }
+}
